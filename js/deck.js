@@ -11,7 +11,7 @@ class Deck {
         for (let suit = 0; suit < 4; suit++) {
             for (let symbol = 0; symbol < 14; symbol++) {
                 if (value !== 127148 && value !== 127164 && value !== 127180 && value !== 127196) {
-                    let cardValue = symbal > 9 ? 10 : symbol + 1;
+                    let cardValue = symbol > 9 ? 10 : symbol + 1;
                     this._cards.push(new Card(cardValue, `&#${value}`));
                 }
                 value++;
