@@ -71,3 +71,5 @@ clearBtn.onclick = () =>{
     console.log("Clear button clicked");
     scoreboard.clearScorboard();
 }
+
+disableButtons();
